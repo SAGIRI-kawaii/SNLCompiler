@@ -26,7 +26,7 @@ def print_tree(data: dict) -> None:
 
 logger.add("log/log_{time}.log")
 # main()
-with open("demo2.txt", "r", encoding="utf-8") as r:
+with open("demo3.txt", "r", encoding="utf-8") as r:
     fp = list(r.read())
 # print(''.join(fp))
 lexer = Lexer()
